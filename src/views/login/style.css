@@ -1,0 +1,58 @@
+.main-container  {
+    background-color: #FEEEF1;
+}
+.login-wrapper {
+    margin: 100px 0 20px 0 ;
+   width: 410px;
+}
+.banner1 {
+    width: 100%;
+} 
+.body-wrapper {
+    background-color: #fff;
+    padding: 30px;
+}
+.color1 {
+    color: #424553;
+}
+.get-help,.midLinks {
+    margin: 15px 0px;
+    font-size: 13px;
+}
+.get-help span,.midLinks a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ff3c6f;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+.continue-btn {
+    width: 100%;
+    background-color: #ff3c6f;
+    border-radius:0px;
+    border: none;
+    color: #FFF;
+    padding: 8px 0;
+}
+.input-field {
+    margin: 15px 0px;
+    width: 100%;
+    border-radius: 0px;
+    border: 1px solid black;
+    padding: 0px !important;
+    display: flex;
+    align-items: center;
+}
+.input-field input {
+    border: none; 
+    padding: 0 10px;
+}
+.input-field input:focus {
+    outline: 0px;
+    border: none; 
+}
+.code {
+    color: #94969f;;
+    font-size: 13px;
+    padding: 10px 4px;
+}

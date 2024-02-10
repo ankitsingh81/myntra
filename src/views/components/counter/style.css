@@ -1,0 +1,14 @@
+.counter {
+    color: #ff3f6c;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+.timer {
+    margin-top: 84px;
+    background-image: linear-gradient(90deg,#f9f9ff,#dee8ff);
+    color: #535766;
+}
+.units {
+    font-size: 13px;
+    padding-top: 4px;
+}
