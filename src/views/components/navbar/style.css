@@ -1,0 +1,53 @@
+.logo {
+    margin-left: 20px;
+}
+.navbar {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 18px 18px;
+    background: white !important;
+    box-shadow: 0 4px 12px 0 rgba(241, 10, 10, 0.05) !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+.searchBar {
+    border: 1px solid #f5f5f6;
+    border-radius: 4px;
+    background-color: #f5f5f6;
+    width: 350px;
+}
+.inputbar {
+    background-color: #f5f5f6;
+    width: 100%;
+}
+.searchicon {
+cursor: pointer;
+}
+.inputbar {
+    border: none !important;
+    outline: none !important;
+}
+.inputbar:focus {
+    border: none !important;
+    outline: none !important;
+}
+.inputbar:hover {
+    border: none !important;
+    outline: none !important;
+}
+.nav-item {
+    padding: 0px 10px;
+}
+.navtabs {
+    font-size: 12px;
+    font-weight: 700;   
+}
+.profile {
+    text-decoration: none;
+    color: black;
+}
+.profile :hover {
+    font-weight: bold;
+}
