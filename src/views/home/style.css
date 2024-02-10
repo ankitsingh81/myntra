@@ -1,0 +1,43 @@
+.beaner1 {
+    margin-top: 25px;
+    width: 100%;
+}
+.beaner2, .beaner3 {
+    width: 50%;
+    cursor: pointer;
+}
+.beaner4 {
+    width: 100%;
+    cursor: pointer;
+}
+.beaner5 {
+    width: 100%;
+    cursor: pointer;
+}
+.carts-container {
+    padding: 20px 0;
+    gap: 35px !important;
+}
+.card {
+    border: none;
+    width: 10rem;
+    border-radius: 0px;   
+    background-image: linear-gradient(#FF7F9E,#D7001A);
+    color: white;
+    padding-bottom: 6px;
+}
+.card-img-top {
+    border-radius: 0px;   
+    padding: 4px 6px;
+    height: 145px;
+}
+.cartText {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+.cardPrice {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
