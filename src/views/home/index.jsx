@@ -38,38 +38,6 @@ function Home() {
                         </div>
                     </div>
                 )}
-                {/* <div className="card">
-                    <img src="/images/cart-img.png" className="card-img-top" alt="..." />
-                    <div className='cartBody'>
-                        <div className='cartText'>Women's Ethnic Wear</div>
-                        <div className='cardPrice' onClick={() => a()}>50-80% OFF</div>
-                        <div className='cartText cartBtn'>Shop Now</div>
-                    </div>
-                </div>
-                <div className="card">
-                    <img src="/images/cart-img.png" className="card-img-top" alt="..." />
-                    <div className='cartBody'>
-                        <div className='cartText'>Women's Ethnic Wear</div>
-                        <div className='cardPrice' onClick={() => a()}>50-80% OFF</div>
-                        <div className='cartText cartBtn'>Shop Now</div>
-                    </div>
-                </div>
-                <div className="card">
-                    <img src="/images/cart-img.png" className="card-img-top" alt="..." />
-                    <div className='cartBody'>
-                        <div className='cartText'>Women's Ethnic Wear</div>
-                        <div className='cardPrice' onClick={() => a()}>50-80% OFF</div>
-                        <div className='cartText cartBtn'>Shop Now</div>
-                    </div>
-                </div>
-                <div className="card">
-                    <img src="/images/cart-img.png" className="card-img-top" alt="..." />
-                    <div className='cartBody'>
-                        <div className='cartText'>Women's Ethnic Wear</div>
-                        <div className='cardPrice' onClick={() => a()}>50-80% OFF</div>
-                        <div className='cartText cartBtn'>Shop Now</div>
-                    </div>
-                </div> */}
             </div>
             <div>
                 <img className='beaner5' src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/1/9eb6dcc4-a508-47ce-a6c4-dcfab0c991821706788570836-App-Install-Banner-----3.jpg" alt="" />
