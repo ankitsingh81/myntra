@@ -1,8 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './style.css'
 import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from "react-redux";
+
 
 function Navbar() {
+    const { loadingInUserLogin, currentUser } = useSelector(state => state.user)
+
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -40,8 +44,11 @@ function Navbar() {
                         </div>
                         <div className='d-flex gap-3 ms-3'>
                             <Link className='text-center profile' to={'/login'}>
-                                <FontAwesomeIcon icon="fa-regular fa-user" />
-                                <div className='navtabs'>Profile</div>
+                               
+                                {(loadingInUserLogin || !currentUser) && <><FontAwesomeIcon icon="fa-solid fa-user-plus" /><div className='navtabs'>Login</div></>}
+                                {!loadingInUserLogin && currentUser && <><FontAwesomeIcon icon="fa-solid fa-user" /> <div className='navtabs'>{
+                                    currentUser.current_user.name.charAt(0).toUpperCase() + currentUser.current_user.name.slice(1).toLowerCase()
+                                }</div> </> }
                             </Link>
                             <div className='text-center'>
                                 <FontAwesomeIcon icon="fa-regular fa-heart" />

@@ -12,7 +12,7 @@ const slice = createSlice(
         name: 'user',
         initialState: {
             currentUser: null,
-            loadingInLogin: false
+            loadingInUserLogin: false
         },
         reducers: {
             setUser: (state, action) => {
@@ -24,12 +24,12 @@ const slice = createSlice(
         },
         extraReducers: (builder) => {
             builder.addCase(userLoginThunk.pending, (state, action) => {
-                state.loadingInLogin = true;
+                state.loadingInUserLogin = true;
             }).addCase(userLoginThunk.fulfilled, (state, action) => {
                 state.currentUser = action.payload;
-                state.loadingInLogin = false
+                state.loadingInUserLogin = false
             }).addCase(userLoginThunk.rejected, (state, action) => {
-                state.loadingInLogin = false;
+                state.loadingInUserLogin = false;
                 state.error = "oops something went wrong "
             })
 
